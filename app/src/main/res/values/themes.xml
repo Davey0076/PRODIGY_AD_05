@@ -1,0 +1,23 @@
+<!-- res/values/themes.xml -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme -->
+    <style name="Base.Theme.QuickQrScanner" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/background_color</item>
+        <item name="colorSecondary">@color/accent_color</item>
+        <item name="colorSecondaryVariant">@color/accent_color</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorOnBackground">@color/background_color</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/background_color</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="android:navigationBarColor">@color/background_color</item>
+        <item name="android:textColorPrimary">@color/background_color</item>
+        <item name="android:textColorSecondary">@color/accent_color</item>
+    </style>
+
+</resources>
